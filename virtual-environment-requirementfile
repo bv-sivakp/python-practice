@@ -1,0 +1,45 @@
+windows
+==========
+
+python -m venv myenv
+myenv\scripts\activate
+pip list
+
+pip freeze > requirement.txt
+pip install -r requirement.txt
+
+deactivate
+
+ubuntu virtual environment
+=========================
+
+To Install
+sudo apt-get install python3-venv
+
+To Create
+python3 -m venv ./myenv
+
+To check
+pip list
+
+To connect
+source myenv/bin/activate
+
+To for packages install
+pip install -r requirements.txt
+
+To check
+pip list
+
+To run the file
+python main.py
+
+To deactivate
+deactivate
+
+For understanding requirements and modules
+https://blog.usejournal.com/why-and-how-to-make-a-requirements-txt-f329c685181e
+
+References
+https://tecadmin.net/create-python-virtual-environment-ubuntu/
+https://itnext.io/how-to-set-up-python-virtual-environment-on-ubuntu-20-04-a2c7a192938d
