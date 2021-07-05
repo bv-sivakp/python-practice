@@ -1,0 +1,83 @@
+=====================================
+Strings
+=====================================
+- Single Line
+    x="Welcome to Python learning"
+- Multi Line
+   y="""Hello
+        World"""
+   z='''Hello
+        World'''
+
+x="Hello" 
+print(x[1]) # prints H
+
+Operations
+ - print(len(x)) # get length
+ - mystr="Hello, World"
+   print("Hello" in mystr)   
+   print("Hello" not in mystr)
+   
+Slicing
+x="Hello, World"
+
+print(x[1:4]) # Get from position 1 to 4
+print(x[:4]) # start to position 4
+print(x[1:]) # start from position 1 till end
+print(x[-5:-2]) # slice from end of the string
+
+Functions
+x="Hello, World"
+x.upper()
+x.lower()
+x.strip()
+x.replace("H","K")
+x.split(",")
+x + y (concatenate)
+
+x=5
+mystr="The price of pen is {}"
+print(mystr.format(x))
+
+==============================================
+Booleans
+==============================================
+True or False
+
+==============================================
+Lists
+==============================================
+ - ordered, changeable, and allow duplicate values 
+
+countries=["India","England","Australia"]
+countries[1] = "Germany"
+countries.append("Russia")
+
+==============================================
+Tuples
+==============================================
+ - Collection which is ordered and unchangeable
+countries=("India","England","Australia")
+
+==============================================
+Sets
+==============================================
+ - Collection which is both unordered and unindexed
+countries= { "India","England","Australia" }
+
+==============================================
+Dictionaries
+==============================================
+countries= {
+  "name" : "India",
+  "continent": "Asia"
+}
+ 
+
+
+
+
+
+
+
+
