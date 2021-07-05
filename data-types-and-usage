@@ -72,3 +72,12 @@ countries= {
   "name" : "India",
   "continent": "Asia"
 }
+
+=============================================
+Arrays
+=============================================
+ - Python doesn't have in-built support for arrays. Lists to be used in place of arrays.
+ - NumPy library to be imported to work with array's in python
+ 
+cars = ["Ford", "Volvo", "BMW"]
+
