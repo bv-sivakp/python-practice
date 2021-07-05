@@ -1,0 +1,28 @@
+if x > y:
+  print("x is greaterthan y")
+elif x == y: 
+  print("x is equals y")
+else:
+  print("x is lessthan y")
+
+i = 1
+while i < 5:
+  print(i)
+  i += 1
+
+countries = ["India", "England", "Germany"]
+for x in countries:
+  print(x)
+
+def my_func():
+  print("Hello, World")
+
+my_func()
+
+def my_func(firstname,lastname):
+  print(fname + " " + lname)
+
+my_func("firstname", "lastname")
+
+y = lambda a : a + 10 (anonymous function)
+print(y(5))
