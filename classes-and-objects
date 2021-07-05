@@ -1,0 +1,45 @@
+# __init__ is a constructor
+# self is reference to current instance
+
+class Patient:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+  def getname():
+    return self.name
+  def getage():
+    return self.age
+
+# creates an object
+p1 = Patient("Robert", 36)
+
+print(p1.name)
+print(p1.age)
+print(p1.getname())
+
+# modify object properties
+p1.name="John"
+
+# delete object properties
+del p1.name
+
+# delete object
+del p1
+
+# Inheritance
+# pass keyword when you do not want to add any other properties or methods to the class.
+class MyChildClass(Patient):
+  pass
+
+# To override constructor
+class MyChildClass(Patient):
+  def __init__(self, name, age):
+    super().__init__(name, age)
+   #Patient.__init__(name, age)
+
+===================================
+Notes
+===================================
+- Iterator is an object that can be iterated
+  - __iter__() for initialization
+  - __next__() returns next item
