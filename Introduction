@@ -119,30 +119,3 @@ binary: bytes, bytearray, memoryview
 print(type(x)) (To print the types)
 x=5 (set to str by python)
 x=str("Hello") (setting to specific type)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
- 
- 
-
-
