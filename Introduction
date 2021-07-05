@@ -1,0 +1,148 @@
+==========================================
+Python used for:
+==========================================
+ - Web Development
+ - Software  
+ - Mathematics
+ - System scripting
+
+==========================================
+Features:
+==========================================
+ - cross-platform
+ - complex mathematics
+ - rapid prototyping
+ - Run on interpreter system
+ - procedural/functional/object-oriented
+ - easy learning curve with simple syntax
+
+==========================================
+Versions:
+==========================================
+  - Most recent and major version of Python is python 3
+
+==========================================
+Editors
+==========================================
+ - Text Editor
+ - VS Code
+ - Thonny
+ - Pycharm
+ - Netbeans or Eclipse
+
+==========================================
+Sytax
+==========================================
+ - newlines are used for the EOL
+ - uses indentation, using whitespaces to define scope
+ 
+==========================================
+Installation
+==========================================
+ - Windows (https://www.python.org/downloads/)
+ - Linux
+    add-apt-repository ppa:deadsnakes/ppa
+    apt-get install -y default-jre
+    apt install -y python3.7
+    apt-get install -y python3-pip python-dev build-essential
+    pip3 install --upgrade pip
+
+==========================================
+Version
+==========================================
+  > python --version
+  > command line mode 
+     > py (starts the editor)
+     > exit()
+
+==========================================
+Variables
+==========================================
+
+  > x=10 (creates a variable when you assign a value to it)
+  > variable names are case sensitive
+  > variable names
+    > can start with letter or underscore or alphanumeric
+    > can be camel,pascal, snake casing    
+    
+==========================================    
+Comments
+==========================================
+  # (single line comment)
+  # comment1 (multi line comment)
+  # comment2
+  """  (ptyhon ignores string literals that are not assigned to a variable)
+      this is
+      multi line comment
+  """
+==========================================  
+Assignment and casting and type
+==========================================
+  x=5
+  y=str(3)
+  z="Hello" (strings can be defined in single or double quotes)
+  print(type(x))
+
+==========================================
+Multiple variable assignation
+==========================================
+x, y = "Hello", "World"
+x=y="Hello"
+countries=["India","Australia", "England"]
+x, y, z = countries
+
+==========================================
+global variables
+==========================================
+x="Hello"
+
+def func1():
+  print("x value is " + x)
+
+func1()
+
+def func1():
+  global x  (To make vairable as global) 
+  x = "foo"
+  print("x value is " + x)
+  
+=========================================
+Build in Datatypes
+=========================================
+Basic types: str, bool
+sequence types: tuple, list, range
+numerics: int, float, complex
+Mapping: dict
+set Types: set,frozenset
+binary: bytes, bytearray, memoryview
+
+print(type(x)) (To print the types)
+x=5 (set to str by python)
+x=str("Hello") (setting to specific type)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+ 
+ 
+
+
