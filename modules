@@ -1,0 +1,19 @@
+Module is same as a code library
+
+myfirstmodule.py
+def my_func(name)
+  print("my name is " + name)
+
+country= {
+"name": "India"
+}
+
+import myfirstmodule
+myfirstmodule.my_func("John")
+myfirstmodule.country["name"]
+
+# Rename module
+import mymodule as myfirstmodule
+
+# Built in modules
+import platform
