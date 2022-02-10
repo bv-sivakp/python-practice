@@ -90,3 +90,10 @@ and integrate systems more effectively.
 - Mapping: dict
 - Set Types: set,frozenset
 - Binary: bytes, bytearray, memoryview
+
+| Collection | Ordered |Changable | Duplicates | 
+| ------ | ------ | ------ | ------ |
+| Lists | Yes | Yes | Yes |
+| Tuples | Yes | No | Yes |
+| Sets | No | No | No |
+| Dictionaries | Yes | Yes | No |
