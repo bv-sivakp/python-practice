@@ -5,11 +5,42 @@ and integrate systems more effectively.
 
 ## Used for
 - Web and UI Development
+  - Popular libraries (django, Flask) 
 - Software  
 - Big data and mathematics
 - System scripting
 - System Administration
+- Data Science*
+- Machine Learning*
+  - Face recognition, voice recognition 
+- Artificial Intelligence*
+- Data collections like Web Scraping
+  - web crawlers
+- Automation
+    - DevOps tasks
+    - Monitoring infra
+    - Automatic Backups and cleaning tasks (house keeping)
+    - General tasks
+- Mobile, Gaming and Desktop Development (less likely use cases)
+- Popular libraries
+    - Data anlysis and Data visualization and artficial intelligence
 
+## Popular Modules 
+ - PyTorch
+ - Pandas
+ - NumPy
+ - TensorFlow
+ - theano
+ - NLTK (Natural Language Analyses)
+ - Keras
+ - plotly
+ - matplotlib
+
+## Module Repository
+ - Pypi ( Python package Index)
+ - Package is a collection of python modules
+ - pip install (pip is a package manager for python)
+ - 
 ## Features
  - Cross-platform
  - Complex mathematics
@@ -17,6 +48,14 @@ and integrate systems more effectively.
  - Run on interpreter system
  - Procedural/functional/object-oriented
  - Easy learning curve with simple syntax
+ - Large ecosystem
+    - many libraries
+    - large community
+ - Many Libraries and Large Community
+ - Flexible
+    - You're not limited to language specifics (syntax, datatypes)
+    - Extend widely
+    - Multi Purpose language
 
 ## Versions
  - Python 3 (Most recent)
@@ -85,7 +124,7 @@ and integrate systems more effectively.
   
 ## Build in Datatypes
 - Basic types: str, bool 
-- Sequence types: tuple, list, range
+- Sequence types: tuple, list, range 
 - Numerics: int, float, complex
 - Mapping: dict
 - Set Types: set,frozenset
